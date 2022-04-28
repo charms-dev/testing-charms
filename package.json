@@ -1,0 +1,26 @@
+{
+	"name": "charms-testing",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"preinstall": "only-allow pnpm",
+		"publish": "turbo run prepublish && pnpm -r publish --access public",
+		"build": "turbo run build --parallel",
+		"test": "turbo run test --parallel",
+		"dev": "turbo run dev --parallel",
+		"lint": "turbo run lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+	},
+	"devDependencies": {
+		"@types/node": "^18.7.9",
+		"@types/prettier": "2.7.0",
+		"only-allow": "^1.1.1",
+		"prettier": "latest",
+		"ts-node": "^10.9.1",
+		"turbo": "latest",
+		"typescript": "^4.7.4"
+	},
+	"dependencies": {
+		"@changesets/cli": "^2.24.3"
+	}
+}
