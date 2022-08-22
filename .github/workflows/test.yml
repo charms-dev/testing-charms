@@ -5,7 +5,7 @@ on:
   pull_request:
     types: [opened, synchronize]
 jobs:
-  size:
+  test:
     runs-on: ${{ matrix.os }}
     strategy:
        matrix:
