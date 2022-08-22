@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"preinstall": "only-allow pnpm",
-		"publish": "turbo run prepublish && pnpm -r publish --access public",
+		"release": "turbo run prepublish && pnpm -r publish --access public",
 		"build": "turbo run build --parallel",
 		"test": "turbo run test --parallel",
 		"dev": "turbo run dev --parallel",
