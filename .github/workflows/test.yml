@@ -26,3 +26,14 @@ jobs:
           node-version: ${{ matrix.node_version }}
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
+  test-status:
+    runs-on: ubuntu-20.04
+    needs: [test]
+    if: ${{ always() }}
+    steps:
+      - name: Successful deploy
+        if: ${{ !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
+      - name: Failing deploy
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
