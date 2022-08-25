@@ -1,5 +1,11 @@
 # @testing-charms/expect
 
+## 1.0.2
+
+### Patch Changes
+
+-   0aee583: Fix dependencies
+
 ## 1.0.1
 
 ### Patch Changes
