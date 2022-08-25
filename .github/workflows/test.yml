@@ -18,11 +18,11 @@ jobs:
           - 16
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.x
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node_version }}
-      - uses: pnpm/action-setup@v2.2.2
-        with:
-          version: 7.1.2
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
