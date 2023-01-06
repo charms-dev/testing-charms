@@ -26,7 +26,7 @@
 	"devDependencies": {
 		"@swc-node/register": "1.5.5",
 		"@types/chai": "4.3.4",
-		"@types/node": "17.0.45",
+		"@types/node": "18.11.18",
 		"chai": "4.3.7",
 		"colorette": "2.0.19",
 		"expect": "29.3.1",
