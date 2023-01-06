@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@changesets/cli': 2.25.0
       '@types/node': 18.7.13
-      '@types/prettier': 2.7.1
+      '@types/prettier': 2.7.2
       only-allow: 1.1.1
       prettier: latest
       ts-node: 10.9.1
@@ -16,7 +16,7 @@ importers:
       '@changesets/cli': 2.25.0
     devDependencies:
       '@types/node': 18.7.13
-      '@types/prettier': 2.7.1
+      '@types/prettier': 2.7.2
       only-allow: 1.1.1
       prettier: 2.8.1
       ts-node: 10.9.1_ieummqxttktzud32hpyrer46t4
@@ -620,8 +620,8 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: false
 
-  /@types/prettier/2.7.1:
-    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
+  /@types/prettier/2.7.2:
+    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
     dev: true
 
   /@types/semver/6.2.3:
