@@ -28,7 +28,7 @@
 		"@types/chai": "4.3.4",
 		"@types/node": "18.15.11",
 		"chai": "4.3.7",
-		"colorette": "2.0.19",
+		"colorette": "2.0.20",
 		"expect": "29.5.0",
 		"mitata": "0.1.6",
 		"ts-node": "10.9.1",
