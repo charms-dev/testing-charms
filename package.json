@@ -12,7 +12,7 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md,json}\""
 	},
 	"devDependencies": {
-		"@types/node": "18.16.10",
+		"@types/node": "18.16.12",
 		"@types/prettier": "2.7.2",
 		"only-allow": "1.1.1",
 		"prettier": "latest",
