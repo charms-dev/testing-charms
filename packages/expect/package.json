@@ -33,7 +33,7 @@
 		"mitata": "0.1.6",
 		"ts-node": "10.9.1",
 		"ts-toolbelt": "9.6.0",
-		"tsup": "7.0.0",
+		"tsup": "7.1.0",
 		"uvu": "0.5.6"
 	},
 	"dependencies": {
