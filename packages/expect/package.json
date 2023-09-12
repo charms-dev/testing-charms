@@ -29,7 +29,7 @@
 		"@types/node": "18.17.15",
 		"chai": "4.3.8",
 		"colorette": "2.0.20",
-		"expect": "29.6.4",
+		"expect": "29.7.0",
 		"mitata": "0.1.6",
 		"ts-node": "10.9.1",
 		"ts-toolbelt": "9.6.0",
