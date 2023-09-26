@@ -41,8 +41,8 @@ importers:
         version: 2.0.2
     devDependencies:
       '@swc-node/register':
-        specifier: 1.6.7
-        version: 1.6.7(@swc/core@1.3.3)(typescript@5.2.2)
+        specifier: 1.6.8
+        version: 1.6.8(@swc/core@1.3.3)(typescript@5.2.2)
       '@types/chai':
         specifier: 4.3.6
         version: 4.3.6
@@ -574,8 +574,8 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@swc-node/core@1.10.5(@swc/core@1.3.3):
-    resolution: {integrity: sha512-G+Me0sTApMy6WY9mT0TluFxdO633P1GWMllbT3LWeJlknqQxJo8dAQcV0Uc0+rvBVXt7rRo/BMUZNJp88qarzg==}
+  /@swc-node/core@1.10.6(@swc/core@1.3.3):
+    resolution: {integrity: sha512-lDIi/rPosmKIknWzvs2/Fi9zWRtbkx8OJ9pQaevhsoGzJSal8Pd315k1W5AIrnknfdAB4HqRN12fk6AhqnrEEw==}
     engines: {node: '>= 10'}
     peerDependencies:
       '@swc/core': '>= 1.3'
@@ -583,13 +583,13 @@ packages:
       '@swc/core': 1.3.3
     dev: true
 
-  /@swc-node/register@1.6.7(@swc/core@1.3.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-+Tccbb4+fN8vYx88fdEGFbsCSnF0zBxbVhZkYkFAbVI7h6zVIgA3Jmlok4ZM+q+1KxzPN7AOfhQVuFOYBzZBeA==}
+  /@swc-node/register@1.6.8(@swc/core@1.3.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-74ijy7J9CWr1Z88yO+ykXphV29giCrSpANQPQRooE0bObpkTO1g4RzQovIfbIaniBiGDDVsYwDoQ3FIrCE8HcQ==}
     peerDependencies:
       '@swc/core': '>= 1.3'
       typescript: '>= 4.3'
     dependencies:
-      '@swc-node/core': 1.10.5(@swc/core@1.3.3)
+      '@swc-node/core': 1.10.6(@swc/core@1.3.3)
       '@swc-node/sourcemap-support': 0.3.0
       '@swc/core': 1.3.3
       colorette: 2.0.20
