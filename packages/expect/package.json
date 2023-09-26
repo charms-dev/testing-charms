@@ -24,7 +24,7 @@
 	"author": "TypeMod Labs",
 	"license": "Unlicense",
 	"devDependencies": {
-		"@swc-node/register": "1.6.7",
+		"@swc-node/register": "1.6.8",
 		"@types/chai": "4.3.6",
 		"@types/node": "18.18.0",
 		"chai": "4.3.8",
