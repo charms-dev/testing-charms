@@ -27,7 +27,7 @@
 		"@swc-node/register": "1.6.8",
 		"@types/chai": "4.3.6",
 		"@types/node": "18.18.0",
-		"chai": "4.3.9",
+		"chai": "4.3.10",
 		"colorette": "2.0.20",
 		"expect": "29.7.0",
 		"mitata": "0.1.6",
