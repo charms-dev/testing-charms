@@ -25,7 +25,7 @@
 	"license": "Unlicense",
 	"devDependencies": {
 		"@swc-node/register": "1.6.8",
-		"@types/chai": "4.3.9",
+		"@types/chai": "4.3.10",
 		"@types/node": "20.8.10",
 		"chai": "4.3.10",
 		"colorette": "2.0.20",
