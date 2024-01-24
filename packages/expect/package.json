@@ -30,7 +30,7 @@
 		"chai": "5.0.0",
 		"colorette": "2.0.20",
 		"expect": "29.7.0",
-		"mitata": "0.1.7",
+		"mitata": "0.1.8",
 		"ts-node": "10.9.2",
 		"ts-toolbelt": "9.6.0",
 		"tsup": "7.2.0",
