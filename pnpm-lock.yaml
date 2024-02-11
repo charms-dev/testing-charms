@@ -59,8 +59,8 @@ importers:
         specifier: 29.7.0
         version: 29.7.0
       mitata:
-        specifier: 0.1.8
-        version: 0.1.8
+        specifier: 0.1.9
+        version: 0.1.9
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@swc/core@1.3.3)(@types/node@20.8.10)(typescript@5.3.3)
@@ -1992,8 +1992,8 @@ packages:
       kind-of: 6.0.3
     dev: false
 
-  /mitata@0.1.8:
-    resolution: {integrity: sha512-q+tTmAMdyT69SfwvOkMMCCzLhqoPY9OmbZ2nTDwFopTYMKl9HLRA+XfDXydGaRzVEYehkyfP1pFYoXzE6jVRKw==}
+  /mitata@0.1.9:
+    resolution: {integrity: sha512-/Nr2NeYkCh9r5GHV8YZ5pZHlIhKx04O4TH2M9Ydk2yQeJnpgtBl20HJQDY34TUq4ozL1MNHajZGjLJm7K5U2Gg==}
     dev: true
 
   /mixme@0.5.4:
